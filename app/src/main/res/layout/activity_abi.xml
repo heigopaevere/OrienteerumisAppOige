@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/uks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="18dp"
+        android:text="Nuga, nuga aitab sul õigata oksi varjualuse jaoks, valmistada söögiriistu, lõigata puukoort või juuri nööri punumiseks,
+        mida omakorda võid kasutada kalastusvahendina, aga ka tule
+        süütamiseks vajaliku vibu meisterdamiseks."
+        android:textColor="#f000" />
+
+    <TextView
+        android:id="@+id/kaks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/kolm"
+        android:layout_marginTop="25dp"
+        android:text="Nõges, Kõrve- või piimanõges, vahet pole. Peaasi, et sünnib süüa.
+        Opid hindama iga pisimatki suutäit, mis emakesel loodusel sulle pakkuda on."
+        android:textColor="#f000" />
+
+    <TextView
+        android:id="@+id/kolm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/uks"
+        android:layout_marginTop="27dp"
+        android:text="Tuli on su tööriist, kui pead karastama teravaksihutud puuroika tippu või
+        sepistama endale tööriista kusagilt kangutatud rauakolast."
+        android:textColor="#f000" />
+
+    <TextView
+        android:id="@+id/neli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/kaks"
+        android:layout_marginTop="32dp"
+        android:text="Vesi, Kolm päeva ilma veeta ja oled ellujääjana läbi kukkunud. Lõplikult."
+        android:textColor="#f000" />
+
+    <TextView
+        android:id="@+id/viis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/neli"
+        android:layout_marginTop="44dp"
+        android:text="Varjualune, et sul koht kus magada"
+        android:textColor="#f000"/>
+
+
+</RelativeLayout>

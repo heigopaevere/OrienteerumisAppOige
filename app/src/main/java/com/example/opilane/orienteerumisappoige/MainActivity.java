@@ -8,9 +8,6 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by opilane on 15.05.2018.
- */
 
 public class MainActivity extends AppCompatActivity {
 

@@ -3,9 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/OrienteerumisAppOige.iml" filepath="$PROJECT_DIR$/OrienteerumisAppOige.iml" />
+      <module fileurl="file://C:\Users\opilane\StudioProjects\OrienteerumisAppOige\OrienteerumisAppOige.iml" filepath="C:\Users\opilane\StudioProjects\OrienteerumisAppOige\OrienteerumisAppOige.iml" />
       <module fileurl="file://C:\Users\IrinaRu\AndroidStudioProjects\OrienteerumisAppOige\OrienteerumisAppOige.iml" filepath="C:\Users\IrinaRu\AndroidStudioProjects\OrienteerumisAppOige\OrienteerumisAppOige.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://C:\Users\IrinaRu\AndroidStudioProjects\OrienteerumisAppOige\app\app.iml" filepath="C:\Users\IrinaRu\AndroidStudioProjects\OrienteerumisAppOige\app\app.iml" />
+      <module fileurl="file://C:\Users\opilane\StudioProjects\OrienteerumisAppOige\app\app.iml" filepath="C:\Users\opilane\StudioProjects\OrienteerumisAppOige\app\app.iml" />
     </modules>
   </component>
 </project>

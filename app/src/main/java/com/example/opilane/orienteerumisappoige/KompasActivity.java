@@ -1,21 +1,25 @@
 package com.example.opilane.orienteerumisappoige;
 
+import android.content.Intent;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.RotateAnimation;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class kompassActivity extends AppCompatActivity implements SensorEventListener {
+public class KompasActivity extends AppCompatActivity implements SensorEventListener {
 
     private ImageView kompassPic;
     TextView suund, loe;
+    Button abi, margid;
     private float algsedKraadid = 0f;
 
     private SensorManager sensorManager;
@@ -25,7 +29,7 @@ public class kompassActivity extends AppCompatActivity implements SensorEventLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_kompass);
+        setContentView(R.layout.activity_kompas);
 
         kompassPic = findViewById(R.id.kompassPic);
         suund = findViewById(R.id.nurk);
@@ -75,5 +79,11 @@ public class kompassActivity extends AppCompatActivity implements SensorEventLis
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy){
 
+    }
+
+    public void abi(View view) {startActivity(new Intent(KompasActivity.this, SmtActivity.class));
+    }
+
+    public void margid(View view) {startActivity(new Intent(KompasActivity.this, MainActivity.class));
     }
 }
